@@ -1,0 +1,29 @@
+body {
+    background-color: #DBE8FF;
+    color: #234357;
+}
+
+.searchDiv {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.results {
+    background-color: #61ABEC;
+    margin: 20px 40px 20px 40px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(98, 98, 98, 0.5);
+    transition: background-color 0.2s linear; /* vendorless fallback */
+    -o-transition: background-color 0.2s linear; /* opera */
+    -ms-transition: background-color 0.2s linear; /* IE 10 */
+    -moz-transition: backgroun-color 0.2s linear; /* Firefox */
+    -webkit-transition: background-color 0.2s linear; /*safari and chrome */
+}
+
+.results:hover {
+    background-color:  #B2DAFF;    
+    cursor: pointer;
+}
+
